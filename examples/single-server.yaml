@@ -1,7 +1,8 @@
 apiVersion: "database.arangodb.com/v1alpha"
 kind: "ArangoDeployment"
 metadata:
-  name: "example-simple-single"
+  name: "arangodb-single"
+  namespace: "synamedia-iq"
 spec:
   mode: Single
   image: arangodb/arangodb:3.4.7
